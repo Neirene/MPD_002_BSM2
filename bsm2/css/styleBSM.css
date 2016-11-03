@@ -1,0 +1,51 @@
+﻿
+@font-face { font-family: robotoRegular; src: url(Roboto-Regular.ttf); }
+@font-face { font-family: robotoBold; src: url(Roboto-Bold.ttf); }
+body, html { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; height: 100%; margin: 0px; font-family: robotoRegular, sans-serif; background-image: url(../img/templatePic.png); background-position: left top; background-repeat: no-repeat; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+
+
+/*LAYOUT STRUCTURE*/
+
+/*Header Contents, Logos, Clock, Date , etc...*/
+.wrapper { height: 100%; width: 100%; margin: 0px; padding: 0px; position: relative;}
+.header { background-color: #e6e7e8; height: 146px; border-bottom: 2px solid #16171f; position: relative; }
+.blackBar { height: 20px; width: 100%; background-color: rgb(0, 0, 0); }
+
+
+.logoBox { position: absolute; top: 31px; left: 58px; background-image: url(../img/logoBsm.png); background-position: center center; background-repeat: no-repeat; width: 356px; height: 106px; }
+
+
+.phoneBox { width: 210px; height: 74px; position: absolute; top: 63px; left: 425px; color: #808183; font-weight: bold; text-align: right; }
+.webInfo { position: absolute; background-image: url('../img/infoTopCaption.png'); background-repeat: no-repeat; background-position: 5px 7px; width: 100%; /* height: 33px; */ font-size: 25px; top: 4px; left: 0px; }
+.phoneInfo { background-image: url('../img/infoTopPhone.png'); background-repeat: no-repeat; background-position: 5px 2px; bottom: 5px; left: 0px; position: absolute; width: 100%; /* height: 30px; */ font-size: 23px; }
+
+
+.infoBox { position: absolute; top: 36px; right: 12px; background-color: rgb(255, 255, 255); width: 586px; height: 100px; color: rgb(34, 31, 31); }
+.stationCaption { position: absolute; top: 5px; left: 13px; padding-right: 20px; width: 420px; height: 88px; text-align: right; border-right: 2px solid black; font-size: 35px; line-height: 87px; }
+.dateBox { position: absolute; top: 13px; right: 10px; width: 113px; height: 87px; }
+.clockCaption { width: 100%; float: left; text-align: center; font-size: 36px; font-weight: bold; }
+.dateCaption { float: left; text-align: center; font-weight: bold; font-size: 20px; width: 100%; }
+
+
+.contentsArea { position: relative; float: left; background-color: white; width: 100%; height: 80.7%; overflow: hidden; }
+.centerContainer { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; }
+
+
+.sideBar { width: 10.5%; position: absolute; top: 0px; right: 0px; background-color: #16171f; height: 100%; }
+.langContainer { color: white; text-align: center; list-style-type: none; padding: 0px; margin: 0px; }
+.langContainer li { width: 100%; }
+.langCaption { font-size: 16px; padding-top: 15px; }
+.catBt { background-image: url('../img/langBtCat.png'); background-position: center center; background-repeat: no-repeat; width: 80%; height: 85px; border-bottom: 1px solid grey; margin-left: auto; margin-right: auto; }
+.espBt { background-image: url('../img/langBtEsp.png'); background-position: center center; background-repeat: no-repeat; width: 80%; height: 85px; border-bottom: 1px solid grey; margin-left: auto; margin-right: auto; }
+.engBt { background-image: url('../img/langBtEng.png'); background-position: center center; background-repeat: no-repeat; width: 80%; height: 85px; border-bottom: 1px solid grey; margin-left: auto; margin-right: auto; }
+.deuBt { background-image: url('../img/langBtDe.png'); background-position: center center; background-repeat: no-repeat; width: 80%; height: 85px; border-bottom: 1px solid grey; margin-left: auto; margin-right: auto; }
+
+
+.bottomContainer { background-color: #e6e7e8; height: 110px; position: absolute; bottom: 0px; left: 0px; width: 89.5%; }
+.bottomSeparator { /* background-color: orange; */ height: 5px; border-bottom: 2px solid rgb(255, 255, 255); }
+.infoBt { position: absolute; top: 10px; left: 24px; width: 90px; height: 90px; background-image: url('../img/infoBt.png'); background-position: center center; background-repeat: no-repeat; }
+.bottomCaption {display:none; width: 87%; height: 60px; top: 29px; right: 10px; color: rgb(34, 31, 31); position: absolute; font-weight: bold; font-size: 25px; text-align: center; line-height: 59px; text-decoration: blink; }
+
+
+/*****INNER AREA*****/
+

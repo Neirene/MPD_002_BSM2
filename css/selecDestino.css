@@ -1,0 +1,180 @@
+﻿.destinationContainer {
+    position: relative;
+
+    overflow: hidden;
+    width: 250px;
+    height: 78%;
+
+    margin-left: 1.5%;
+    float: left;
+    margin-top: 1%;
+}
+
+.destinationContainer ul {
+    list-style-type: none;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.destinationContainer ul li {
+    background-color: #dddddd;
+
+    margin-bottom: 28px;
+}
+
+.c1 {
+        top: 2%;
+    
+        left: 1%;
+}
+
+.c2 {
+        top: 2%;
+    
+        left: 21%;
+}
+
+
+.c3 {
+
+        top: 2%;
+    
+
+        left: 41%;
+}
+
+
+.c4 {
+
+        top: 2%;
+    
+
+        left: 61%;
+}
+
+
+.scrollBarContainer {
+        position: absolute;
+
+    overflow: hidden;
+    
+        width: 7%;
+    
+        height: 77.3%;
+    
+        background-color: #ececed;
+    
+        top: 2.4%;
+    
+        right: 12%;
+        border: 1px solid rgba(156, 167, 174, 0.39);
+}
+
+.routeContainer {
+    position: relative;
+
+    height: 100px;
+    overflow: hidden;
+}
+
+.routeContainer:hover {
+    color:white;
+    background-color: rgb(32, 32, 32)
+}
+
+.routeTypeContainer {
+    border-bottom: 2px solid grey;
+
+    width: 92%;
+    height: 35%;
+    margin-left: auto;
+    top: 5%;
+    left: 4%;
+    margin-right: auto;
+    position: absolute;
+}
+
+.iconTrain {
+    width: 30px;
+
+    height: 30px;
+    background-color: white;
+    background-image: url('../img/iconTrain.png');
+    background-size: cover;
+    float: left;
+    margin-right: 2%;
+}
+
+.iconBus {
+        width: 30px;
+
+    height: 30px;
+    background-color: white;
+    background-image: url('../img/iconBus.png');
+    background-size: cover;
+        float: left;
+        margin-right: 2%;
+}
+
+.routeType {
+    float: left;
+
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.destinationCaption {
+    position: absolute;
+
+    top: 46%;
+    left: 4%;
+    font-size: 13px;
+}
+
+.destinationLocation {
+    position: absolute;
+
+    bottom: 7%;
+    left: 4%;
+    font-size: 20px;
+    width: 92%;
+    height: 27%;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.arrowUp {
+    background-color: white;
+
+    width: 90%;
+    height: 16%;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    background-image: url('../img/arrowUp.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60px;
+}
+
+.arrowDown {
+        background-color: white;
+
+    width: 90%;
+    height: 16%;
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+        background-image: url('../img/arrowDown.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60px;
+}
+
+.disabledTransport {
+    display:none;
+
+}
